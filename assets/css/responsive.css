@@ -1,0 +1,134 @@
+
+/*-------------------------------------------------------
+                 Various Device Responsive
+----------------------------------------------------------*/
+
+@media screen and (max-width: 1199px){
+	.intro-text p {
+	    font-size: 22px;
+    	line-height: 40px;
+	}
+}/*max-width: 1199px*/
+
+@media screen and (max-width: 767px){
+	/*navbar toggle menu*/
+	.navbar-inverse .navbar-toggle {
+	    border-color: #e1e1e1;
+	}
+	.navbar-toggle .icon-bar {
+	    width: 30px;
+	}
+	.navbar-toggle .icon-bar+.icon-bar {
+	    margin-top: 7px;
+	}
+	.navbar-inverse .navbar-toggle .icon-bar {
+	    background-color: #D21F34;
+	}
+	.navbar-toggle {
+	    float: left;
+	    margin-left: 20px;
+	    margin-top: 20px;
+	    margin-right: 0;
+	}
+	.navbar-inverse .navbar-toggle:focus, 
+	.navbar-inverse .navbar-toggle:hover {
+	    background-color: transparent;
+	}
+	.navbar-right {
+	    margin-left: 15px;
+	    background: #fff;
+	    padding: 10px 20px 50px 20px;
+	}
+	.navbar-inverse .navbar-collapse, 
+	.navbar-inverse .navbar-form {
+	    border-color: transparent;
+	}
+	.navbar-right li {
+	    padding-top: 0;
+	    text-align: center;
+	}
+	.navbar-inverse .navbar-nav>li>a {
+	    margin: 10px 0 10px 0;
+	}
+	/* Drop-Down Menu */
+	.navbar-right .dropdown-menu {
+		right: 0;
+	    left: 0;
+	}
+	/*nav-bar brand*/
+	.navbar-brand {
+    	float: right;
+    }
+    /*intro-text*/
+    .intro-text {
+	    padding-top: 30px;
+	}
+    /* pre-footer*/
+    #pre-footer .contact-info > li:first-child > div {
+	    border-right: 0;
+	}
+	 /* footer*/
+	#footer p {
+	    text-align: center;
+	}
+	#footer ul.social {
+	    text-align: center;
+	    margin-top: 10px;
+	}
+    
+} /*max-width: 767px*/
+
+@media (max-width: 767px) and (min-width: 480px) {
+	.clientsList {
+	    max-width: 480px;
+   		margin: 0 auto;
+	}
+	.clientsList li {
+	    width: 215px;
+	}
+} /* max-width: 767px and min-width: 480px */
+
+@media (max-width: 480px) {
+	#what-we-do .service > li > div div.icon {
+	    width: 75px;
+	    height: 75px;
+	    line-height: 85px;
+	}
+	#what-we-do .service > li > div h3 {
+	    font-size: 14px;
+	}
+	#what-we-do .service > li > div {
+		margin: 15px 4px;
+		}
+	#pre-footer h2 {
+	    font-size: 25px;
+	    line-height: 36px;
+	}
+	#pre-footer .digita_button {
+	    margin: 10px 0 50px;
+	}
+	#pre-footer .contact-info > li > div {
+	    padding: 10px 5px;
+	    font-size: 21px;
+	}
+} /*max-width: 480px*/
+
+@media (max-width: 480px) and (min-width: 320px) {
+	.clientsList {
+        max-width: 280px;
+    	margin: 0 auto;
+	}
+	.clientsList li {
+	    width: 135px;
+	}	
+} /* max-width: 480px and min-width: 320px */
+
+@media (max-width: 320px) {
+	.clientsList {
+        max-width: 380px;
+    	margin: 0 auto;
+	}
+	.clientsList li {
+	    width: 125px;
+	}	
+} /* max-width: 320px */
